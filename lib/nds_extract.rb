@@ -5,6 +5,6 @@ def directors_totals(nds)
   def addTohash
     
   
-  nds[count]
+  nds[count][:movies][]
   
 end
