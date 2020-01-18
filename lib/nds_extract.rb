@@ -3,7 +3,8 @@ require 'directors_database'
 
 def directors_totals(nds)
   hash = {};
-  
+  dircount = 0;
+  while nds[dircount]
   nds[count][:movies][count2][:worldwide_gross]
   
 end
