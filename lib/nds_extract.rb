@@ -5,7 +5,7 @@ def directors_totals(nds)
   hash = {};
   dircount = 0;
   while nds[dircount] do
-    hash[] = nds[dircount]
+    nds[dircount]
     
   nds[count][:movies][count2][:worldwide_gross]
   
