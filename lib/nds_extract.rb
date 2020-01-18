@@ -9,9 +9,10 @@ def directors_totals(nds)
     key = nds[dircount][:name]
     
     movcount = 0;
-    
-    while
-    
-  nds[dircount][:movies][count2][:worldwide_gross]
+    value = 0
+    while nds[dircount][:movies][count2] do
+      nds[dircount][:movies][count2][:worldwide_gross]
   
+  end
+  return hash
 end
