@@ -13,6 +13,9 @@ def directors_totals(nds)
     while nds[dircount][:movies][count2] do
       nds[dircount][:movies][count2][:worldwide_gross]
   
+  
+  
+    hash
   end
   return hash
 end
