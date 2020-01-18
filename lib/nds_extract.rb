@@ -10,12 +10,21 @@ def directors_totals(nds)
     
     movcount = 0;
     value = 0
-    while nds[dircount][:movies][count2] do
-      nds[dircount][:movies][count2][:worldwide_gross]
+    
+    while nds[dircount][:movies][movcount] do
+      
+      value += nds[dircount][:movies][movcount][:worldwide_gross]
   
-  
-  
+      
+      movcount += 1
+      
+    end
+    dircount += 1
+    
     hash[key] = value
+    
   end
+  
   return hash
+  
 end
