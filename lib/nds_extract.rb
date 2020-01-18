@@ -5,7 +5,6 @@ def directors_totals(nds)
   def addTohash
     
   
-  def
-  sum = 0
+  
   
 end
